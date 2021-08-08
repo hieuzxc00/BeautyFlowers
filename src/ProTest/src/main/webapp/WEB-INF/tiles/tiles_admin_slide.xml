@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+	"http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+	
+<tiles-definitions>
+
+	<definition name="admin.slide.index" extends="template_admin">
+		<put-attribute name="content" value="/WEB-INF/views/admin/slide/index.jsp" />
+	</definition>
+	
+	<definition name="admin.slide.add" extends="template_admin">
+		<put-attribute name="content" value="/WEB-INF/views/admin/slide/add.jsp" />
+	</definition>
+	
+	<definition name="admin.slide.edit" extends="template_admin">
+		<put-attribute name="content" value="/WEB-INF/views/admin/slide/edit.jsp" />
+	</definition>
+
+</tiles-definitions>

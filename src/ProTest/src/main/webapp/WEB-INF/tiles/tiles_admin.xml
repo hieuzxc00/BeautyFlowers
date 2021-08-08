@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+	"http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+	
+<tiles-definitions>
+
+	<definition name="template_admin" template="/WEB-INF/views/templates/template_admin.jsp">
+		<put-attribute name="content" value="" />
+	</definition>
+	
+	<definition name="template_empty" template="/WEB-INF/views/templates/template_empty.jsp">
+		<put-attribute name="content" value="" />
+	</definition>
+	
+	<definition name="admin.dashboard.index" extends="template_admin">
+		<put-attribute name="content" value="/WEB-INF/views/admin/dashboard/index.jsp" />
+	</definition>
+	
+	<definition name="admin.login.index" extends="template_empty">
+		<put-attribute name="content" value="/WEB-INF/views/admin/login/index.jsp" />
+	</definition>
+	
+	<definition name="admin.login.accessDenied" extends="template_empty">
+		<put-attribute name="content" value="/WEB-INF/views/admin/login/accessDenied.jsp" />
+	</definition>
+	
+	<definition name="admin.account.profile" extends="template_admin">
+		<put-attribute name="content" value="/WEB-INF/views/admin/account/profile.jsp" />
+	</definition>
+	
+</tiles-definitions>

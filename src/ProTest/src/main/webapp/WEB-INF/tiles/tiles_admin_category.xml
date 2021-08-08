@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+	"http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+	
+<tiles-definitions>
+
+	<definition name="admin.category.index" extends="template_admin">
+		<put-attribute name="content" value="/WEB-INF/views/admin/category/index.jsp" />
+	</definition>
+	
+	<definition name="admin.category.add" extends="template_admin">
+		<put-attribute name="content" value="/WEB-INF/views/admin/category/add.jsp" />
+	</definition>
+	
+	<definition name="admin.category.edit" extends="template_admin">
+		<put-attribute name="content" value="/WEB-INF/views/admin/category/edit.jsp" />
+	</definition>
+	
+	<definition name="admin.category.subcategories" extends="template_admin">
+		<put-attribute name="content" value="/WEB-INF/views/admin/category/subcategories.jsp" />
+	</definition>
+	
+	<definition name="admin.category.addsubcategory" extends="template_admin">
+		<put-attribute name="content" value="/WEB-INF/views/admin/category/addsubcategory.jsp" />
+	</definition>
+	
+	<definition name="admin.category.editsubcategory" extends="template_admin">
+		<put-attribute name="content" value="/WEB-INF/views/admin/category/editsubcategory.jsp" />
+	</definition>
+
+</tiles-definitions>

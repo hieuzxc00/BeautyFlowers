@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+	"http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+	
+<tiles-definitions>
+
+	<definition name="template_user" template="/WEB-INF/views/templates/template_user.jsp">
+		<put-attribute name="content" value="" />
+	</definition>
+	
+	<definition name="home.index" extends="template_user">
+		<put-attribute name="content" value="/WEB-INF/views/home/index.jsp" />
+	</definition>
+	
+</tiles-definitions>
